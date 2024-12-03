@@ -51,11 +51,9 @@ class Taha extends StatelessWidget {
 
                   // Transparent container with shimmer effect on the title text
                   Container(
-                    decoration: BoxDecoration(
-                        color: Colors.transparent, // Transparent background
-                        border: Border.all(
-                            color: Colors
-                                .white)), // White border around the text container
+                    decoration: const BoxDecoration(
+                      color: Colors.transparent, // Transparent background
+                    ), // White border around the text container
                     child: Column(
                       children: [
                         const SizedBox(
